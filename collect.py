@@ -16,7 +16,6 @@ mystrings = []
 
 while ((ArduinoSerial.in_waiting > 0) or (t-start < collect_time)):
     print("1")
-    print(ArduinoSerial.readline())
     c = ArduinoSerial.readline()[:-2]
     print("1.5")
     # print(c)
